@@ -1,0 +1,82 @@
+@import "null.css";
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+body{
+   font-family: CircularStd;
+   color: #313131;
+   font-size: 18px;
+}
+.wrapper{
+   max-width: 1440px;
+   min-height: 100%;
+   overflow: hidden;
+   margin: 0px auto;
+}
+h1{
+   margin: 140px 0 20px 0;
+   font-size: 65px;
+   line-height: 82px;
+   text-align: center;
+}
+.subtitle{
+   margin: 0px auto;
+   width: 750px;
+   height: 50px;
+   font-size: 20px;
+   line-height: 25px;
+   text-align: center;
+   color: #5F5F5F;
+}
+.section-two{
+   margin: 224px 0 0 0;
+}
+h2{
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 130%;
+   opacity: 0.88;
+   margin-bottom: 20px;
+}
+.text{
+   width: 508px;
+   height: 140px;
+   line-height: 28px;
+   color: #5F5F5F;
+   margin: 0 0 125px 0;
+}
+.name{
+   line-height: 130%;
+   opacity: 0.88;
+   font-weight: 700;
+   margin-bottom: 5px;
+}
+.profession{
+   line-height: 23px;
+   color: #B8B8B8;
+}
